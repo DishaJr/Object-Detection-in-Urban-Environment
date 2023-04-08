@@ -58,7 +58,7 @@ All three models were able to detect ***vehicles*** in the provided frames for t
 All three models were not able to detect the ***cyclists***. This can be due to low number of steps in training and validation.
 
 1) ResNet50
-2) EfficientNet
-3) MobileNet
+2) MobileNet
+3) EfficientNet
 
 By analyzing the results from TensorBoard after training the model, and observing the detection results on the test sample, the ResNet50 pre-trained model can be chosen as the best model among the three tested models for deployment.
