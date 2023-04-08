@@ -15,6 +15,8 @@ Unfortunately working on **AWS** for the first time has lead to surpassing the b
 **Tensorflow Object detection API** is downloaded into **Google Colab's Virtual Machine**. A link is established between **Google Colab** and **Google Drive** where the dataset files ( **training** and **validation** ) are stored as well as a folder containing the data to be used for testing.
 
 ## **Overview of the training process :**
+Prior to proceeding with the training process, the ***"Project"*** folder is moved to the ***Google Drive*** along with the ***"Object Detection in an Urban Environment 2.ipynb"*** notebook.
+
 Going through **steps 1** to **5**, the required libraries are imported, a link is established between **Google Colab** and **Google Drive**, and te pre-trained model is intsalled.
 
 The pre-trained model's pipeline configuration file is adjusted. Due to limitations in the resources provided the **training steps** had to be **decreased** from 300,000 steps to 6,000 and the **batch size** from 64 to 8.
