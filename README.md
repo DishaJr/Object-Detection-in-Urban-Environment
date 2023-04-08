@@ -15,7 +15,7 @@ Unfortunately working on **AWS** for the first time has lead to surpassing the b
 **Tensorflow Object detection API** is downloaded into **Google Colab's Virtual Machine**. A link is established between **Google Colab** and **Google Drive** where the dataset files ( **training** and **validation** ) are stored as well as a folder containing the data to be used for testing.
 
 ## **Overview of the training process :**
-Prior to proceeding with the training process, the ***"Project"*** folder is moved to the ***Google Drive*** along with the ***"Object Detection in an Urban Environment 2.ipynb"*** notebook.
+Prior to proceeding with the training process, the ***"Project"*** folder is transfered to the ***Google Drive*** along with the ***"Object Detection in an Urban Environment 2.ipynb"*** notebook.
 
 Going through **steps 1** to **5**, the required libraries are imported, a link is established between **Google Colab** and **Google Drive**, and te pre-trained model is intsalled.
 
