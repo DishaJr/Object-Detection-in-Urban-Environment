@@ -53,7 +53,7 @@ The models are trained to detect three classes:
 
 All three models were able to detect ***vehicles*** in the provided frames for testing. Further observation showed that ***MobileNet*** was able to detect ***vehicles*** but with extra noiseness. This was not the case with ***EfficientNet*** and ***ResNet50*** models.
 
-***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**.
+***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**. ***EfficientNet***, on the other hand, was unable to detect pedestrians all along the testing phase.
 
 All three models were not able to detect the ***cyclists***. This can be due to low number of steps in training and validation.
 
