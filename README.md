@@ -27,9 +27,9 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 |                        | EfficientNet                        |  SSD MobileNet | SSD ResNet50  |
 |:-:                     |:-:                                  |:-:             |---            |
 | Batch size             |        64                            |        8       |         8     |
-| Number of training steps        |       300000                          |    6000       |     6000     |
-| Detection sample result       |               |![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
-| Video sample           |               |![video](gif-1.gif)                                 |   ![video](gif-2.gif)            |
+| Number of training steps|       300000                          |    6000       |     6000     |
+| Detection sample result|![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-025.jpg)  ![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-088.jpg)|![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
+| Video sample           | ![video](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif.com-video-to-gif.gif)   |![video](gif-1.gif)                                 |   ![video](gif-2.gif)            |
 | TensorBoard result     |               |![tensor](Screenshot_4.png)       |       ![tensor](Screenshot_1.png)        |
 
 
