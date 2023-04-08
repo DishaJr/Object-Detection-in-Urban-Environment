@@ -23,7 +23,7 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 **Tenserflow's TensorBoard** is started at **step 7** to monitor the training, validation, and testing process. At **step 8** the training process starts followed by the validation process. Once the step runs successfully the model is exported into the Project Folder. **Step 9** uses the frames provided for testing and the saved model to start the process of testing. The resulting detections are placed on the frames and exported together forming a video.
 
-## **Comparison between final results :**
+## **Comparing final results :**
 |                        | EfficientNet                        |  SSD MobileNet | SSD ResNet50  |
 |:-:                     |:-:                                  |:-:             |---            |
 | Batch size             |        8                            |        8       |         8     |
