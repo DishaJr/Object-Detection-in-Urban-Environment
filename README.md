@@ -41,6 +41,8 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 By observing the result of the three models, Resnet50 was able to reach low loss values sooner than both the EfficientNet and MobileNet models. MobileNet took more steps to minimize the loss compared with EfficientNet.
 
+Rank:
+
 1) Resnet50
 2) EfficientNet
 3) MobileNet
@@ -55,9 +57,11 @@ The models are trained to detect three classes:
 
 All three models were able to detect ***vehicles*** in the provided frames for testing. Further observation showed that ***MobileNet*** was able to detect ***vehicles*** but with extra noiseness. This was not the case with ***EfficientNet*** and ***ResNet50*** models.
 
-***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**. ***EfficientNet***, on the other hand, was unable to detect pedestrians all along the testing phase.
+***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**. ***EfficientNet***, on the other hand, detected pedestrians all along the testing phase with large noise at some instances.
 
 All three models were not able to detect the ***cyclists***. This can be due to low number of steps in training and validation.
+
+Rank:
 
 1) ResNet50
 2) MobileNet
