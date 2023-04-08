@@ -10,7 +10,7 @@
 ## **Running training process on Google Colab :**
 **AWS** provides smoothness and speed in every process included in machine learning and deep learning through many of its services. As a result it was Udacity provided such service to its students to complete the project professionally.
 
-Unfortunately working on **AWS** for the first time has lead to surpassing the budget limit provided. Inorder to achieve success in the tasks, shifting the training procedure to be on **Google Colab** was a necessity.
+Unfortunately working on **AWS** for the first time has lead to surpassing the budget limit provided. However, I was able to successfully train and test the default applied pre-trained model, EfficientNet D1. Inorder to achieve success in the following tasks, shifting the training procedure to be on **Google Colab** was a necessity.
 
 **Tensorflow Object detection API** is downloaded into **Google Colab's Virtual Machine**. A link is established between **Google Colab** and **Google Drive** where the dataset files ( **training** and **validation** ) are stored as well as a folder containing the data to be used for testing.
 
