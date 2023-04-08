@@ -27,7 +27,7 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 |                        | EfficientNet                        |  SSD MobileNet | SSD ResNet50  |
 |:-:                     |:-:                                  |:-:             |---            |
 | Batch size             |        8                            |        8       |         8     |
-| Number of steps        |       6000                          |    6000       |     6000     |
+| Number of training steps        |       6000                          |    6000       |     6000     |
 | Detection sample result       |               |![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
 | Video sample           |               |![video](gif-1.gif)                                 |   ![video](gif-2.gif)            |
 | TensorBoard result     |               |![tensor](Screenshot_4.png)       |       ![tensor](Screenshot_1.png)        |
