@@ -37,6 +37,13 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 ----------------------------------------------------------
 
+## Accuracy (mAP) values of the models tested :
+
+**SSD MobileNet V1 FPN :**
+----------------------------------------------------------
+![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_1.png)
+![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_2.png)
+
 ## Loss vs steps :
 
 By observing the result of the three models, Resnet50 was able to reach low loss values sooner than both the EfficientNet and MobileNet models. MobileNet took more steps to minimize the loss compared with EfficientNet.
