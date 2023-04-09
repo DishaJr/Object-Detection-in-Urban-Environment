@@ -41,8 +41,22 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 * SSD MobileNet V1 FPN :
 
-![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_1.png)
-![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_2.png)
+![eval_1](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_1.png)
+![eval_2](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_2.png)
+
+* SSD ResNet50 V1 FPN coco17 tpu-8 :
+
+![eval_3](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_3.png)
+![eval_4](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_4.png)
+
+
+|        Network         |             Loss (total)            |  mAP(IOU = 0.50)  |
+|:-:                     |:-:                                  |:-:                |
+| EfficientNet           |                                     |        8          |
+| SSD MobileNet          |           1.229567                  |        0.342583   |
+| SSD ResNet50           |           0.805846                  |        0.270022   |
+
+----------------------------------------------------------
 
 ## Loss vs steps :
 
