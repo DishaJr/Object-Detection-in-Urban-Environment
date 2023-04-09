@@ -39,7 +39,7 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 ## Accuracy (mAP) values of the models tested :
 
-**SSD MobileNet V1 FPN :**
+SSD MobileNet V1 FPN :
 ----------------------------------------------------------
 ![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_1.png)
 ![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_2.png)
