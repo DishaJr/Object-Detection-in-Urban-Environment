@@ -83,14 +83,14 @@ The models are trained to detect three classes:
 
 All three models were able to detect ***vehicles*** in the provided frames for testing. Further observation showed that ***MobileNet*** was able to detect ***vehicles*** but with extra noiseness. This was not the case with ***EfficientNet*** and ***ResNet50*** models.
 
-***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**. ***EfficientNet***, on the other hand, detected pedestrians all along the testing phase with large noise at some instances.
+***Resnet50*** and ***MobileNet*** models detected ***pedestrians*** most of the time. ***MobileNet*** was having difficulties detecting ***pedestrians*** in some cases that seemed **critical**. ***EfficientNet***, on the other hand, detected pedestrians all along the testing phase with almost no noise.
 
 All three models were not able to detect the ***cyclists***. This can be due to low number of steps in training and validation.
 
 Rank:
 
-1) ResNet50
-2) MobileNet
-3) EfficientNet
+1) EfficientNet
+2) ResNet50
+3) MobileNet
 
-By analyzing the results from TensorBoard after training the model, the total loss amd mAP of each model, and observing the detection results on the test samples, the ResNet50 pre-trained model can be chosen as the best model among the three tested models for deployment.
+By analyzing the results from TensorBoard after training the model, the total loss amd mAP of each model, and observing the detection results on the test samples, the ***EfficientNet D1*** pre-trained model can be chosen as the best model among the three tested models for deployment.
