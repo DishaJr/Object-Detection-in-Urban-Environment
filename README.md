@@ -28,16 +28,21 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 ## **Comparing final results :**
 |                        | EfficientNet                        |  SSD MobileNet | SSD ResNet50  |
 |:-:                     |:-:                                  |:-:             |---            |
-| Batch size             |        64                            |        8       |         8     |
+| Batch size             |        4                            |        8       |         8     |
 | Number of training steps|       300000                          |    6000       |     6000     |
 | Detection sample result|![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-025.jpg)  ![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-088.jpg)|![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
 | Video sample           | ![video](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif.com-video-to-gif.gif)   |![video](gif-1.gif)                                 |   ![video](gif-2.gif)            |
-| TensorBoard result     |               |![tensor](Screenshot_4.png)       |       ![tensor](Screenshot_1.png)        |
+| TensorBoard result     |         ![tensor]([Screenshot_4.png](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/Screenshot_3.png))      |![tensor](Screenshot_4.png)       |       ![tensor](Screenshot_1.png)        |
 
 
 ----------------------------------------------------------
 
 ## Accuracy (mAP) values of the models tested :
+
+* EfficientNet-D1 :
+
+![eval_5](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_5.png)
+![eval_6](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/eval_6.png)
 
 * SSD MobileNet V1 FPN :
 
@@ -52,7 +57,7 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 
 |        Network         |             Loss (total)            |  mAP(IOU = 0.50)  |
 |:-:                     |:-:                                  |:-:                |
-| EfficientNet           |                                     |        8          |
+| EfficientNet           |           0.444299                  |        0.140458   |
 | SSD MobileNet          |           1.229567                  |        0.342583   |
 | SSD ResNet50           |           0.805846                  |        0.270022   |
 
@@ -88,4 +93,4 @@ Rank:
 2) MobileNet
 3) EfficientNet
 
-By analyzing the results from TensorBoard after training the model, and observing the detection results on the test sample, the ResNet50 pre-trained model can be chosen as the best model among the three tested models for deployment.
+By analyzing the results from TensorBoard after training the model, the total loss amd mAP of each model, and observing the detection results on the test samples, the ResNet50 pre-trained model can be chosen as the best model among the three tested models for deployment.
