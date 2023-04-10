@@ -30,7 +30,7 @@ The pre-trained model's pipeline configuration file is adjusted. Due to limitati
 |:-:                     |:-:                                  |:-:             |---            |
 | Batch size             |        4                            |        8       |         8     |
 | Number of training steps|       5000                          |    6000       |     6000     |
-| Detection sample result|![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-025.jpg)  ![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif-frame-088.jpg)|![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
+| Detection sample result|![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/25-eff.png)  ![Batch size](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/25-eff.png)|![Batch size](25.png)  ![Batch size](88.png)|![Batch size](25-res.png)  ![Batch size](88-res.png) |
 | Video sample           | ![video](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/ezgif.com-video-to-gif.gif)   |![video](gif-1.gif)                                 |   ![video](gif-2.gif)            |
 | TensorBoard result     |         ![tensor](https://github.com/DishaJr/Object-Detection-in-Urban-Environment/blob/main/Screenshot_3.png)    |![tensor](Screenshot_4.png)       |       ![tensor](Screenshot_1.png)        |
 
